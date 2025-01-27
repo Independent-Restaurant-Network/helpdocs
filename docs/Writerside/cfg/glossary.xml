@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+    <term name="foo">
+        Description of what "foo" is.
+    </term>
+    <term name="Par Level">
+        A **Par Level** is the target inventory level for a specific product that a restaurant wants to maintain at all times. Using the Par Mode in an Order Guide, the system calculates how much of a product needs to be reordered by subtracting the current stock from the desired Par Level.
+
+        For example, if the Par Level for olive oil is 20 bottles and you currently have 8, the system will calculate an order for 12 bottles to bring your stock back to the Par Level.
+    </term>
+    <term name="Quantity Mode">
+        **Quantity Mode** is a straightforward ordering option that allows you to input the exact amount of a product you want to order, without considering current stock levels.
+
+        For example, “I need 10 boxes of pasta” means you’ll order 10, regardless of how much is currently in stock.
+    </term>
+</terms>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <product-web-url>https://irnworks.com</product-web-url>
+        <!--        <versions-switcher>true</versions-switcher>-->
+        <!--        <versions-comparison></versions-comparison>-->
+        <primary-color>#ED1C24</primary-color>
+        <link-color>#ED1C24</link-color>
+        <color-preset>vivid</color-preset>
+        <custom-favicons>irn-white.png</custom-favicons>
+
+        <header-logo>irn-white.png</header-logo>
+
+        <resizable-sidebar>true</resizable-sidebar>
+
+        <download-title>Join IRN</download-title>
+        <download-page>https://irnworks.com</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+    <footer>
+        <copyright>2025 Independent Restaurant Network Inc</copyright>
+        <!--        <social type="twitter" href="https://twitter.com/onwriterside"/>-->
+        <!--        <link href="https://blog.jetbrains.com">Blog</link>-->
+    </footer>
+    <build-profile instance="ih">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
